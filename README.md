@@ -24,7 +24,7 @@ Now let's give make actual data: In the "root Makefile", you'll see that there's
 
 ```
 # just an example
-go = "C:\Program Files\Go\bin\go.exe"
+go = /usr/local/go/bin/go
 ```
 
 In your "project Makefile" (the one that's empty in your project folder), add the two following variables:
