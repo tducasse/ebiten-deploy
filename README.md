@@ -10,7 +10,7 @@ This repo contains a single Makefile, which tries to provide a few useful target
 
 ## Setup
 ```
-# projects folder for love projects
+# projects folder for ebiten projects
 - myEbitenProjets
 # an Ebiten project here
     - helloWorld
