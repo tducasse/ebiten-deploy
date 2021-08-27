@@ -62,3 +62,26 @@ to run the operation TARGET on the project FOLDER.
 Or just have a read through the Makefile! 😉
 
 Feel free to modify it however you want, and let me know if you come up with something cool, I'll be happy to integrate it to this project!
+
+## Sample run
+Given the following folder structure:
+```
+ROOT_FOLDER/
+ |_ Makefile
+ |_ ebiten-template/
+    |_ index.html
+    |_ main.go
+    |_ go.mod
+    |_ go.sum
+    |_ Makefile
+```
+```Makefile
+# ebiten-template/Makefile
+name = template
+itchio = tducasse/test-deploy
+```
+```sh
+make deploy project=ebiten-template
+```
+![image](https://user-images.githubusercontent.com/11507599/131134456-0f51d7a4-d4c9-419d-9db8-2503e55b9afa.png)
+
